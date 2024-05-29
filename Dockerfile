@@ -5,7 +5,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the JAR file from the host machine to the container
-COPY target/my-app-1.0.jar my-app.jar
+COPY target/jb-hello-world-maven-0.2.0.jar my-app.jar
 
 # Expose the port your application runs on (adjust if necessary)
 EXPOSE 8080
