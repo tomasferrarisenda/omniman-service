@@ -1,13 +1,10 @@
 environment: prod
 
 deployment:
-  image:
-    tag: backstage-minikube-lab
+  image:  
+    tag: 9
   replicas: 1
 
   labels:
     environment: prod
-    app: my-app-backend-prod
-
-  env:
-    redis_host: my-app-redis-prod-master 
+    app: invincible-gtg-omniman-service-prod

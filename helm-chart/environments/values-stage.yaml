@@ -1,13 +1,10 @@
 environment: stage
 
 deployment:
-  image:
-    tag: backstage-minikube-lab
+  image:  
+    tag: 9
   replicas: 1
 
   labels:
     environment: stage
-    app: my-app-backend-stage
-
-  env:
-    redis_host: my-app-redis-stage-master 
+    app: invincible-gtg-omniman-service-stage
